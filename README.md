@@ -1,4 +1,4 @@
-# 🎥 Cross-Camera Player Re-Identification Dashboard
+# 🎥 Cross Camera Mappig
 
 This project is a **Streamlit-based interactive dashboard** for cross-camera player re-identification in sports videos. It allows you to visualize matched detections from multiple camera angles, evaluate performance metrics, and inspect mismatches — all in a user-friendly interface.
 
@@ -30,7 +30,6 @@ cross-camera-reid-dashboard/
 │ └── evaluation_metrics.csv # Evaluation summary
 └── archived_code/ # Old scripts/models (optional, ignored if large)
 
----
 
 ## ⚙️ Installation
 
@@ -39,7 +38,7 @@ git clone https://github.com/jatinverma2703/cross-camera-reid-dashboard.git
 cd cross-camera-reid-dashboard
 pip install -r requirements.txt
 
----
+
 ## 🖥️ Run Locally
 streamlit run streamlit_dashboard.py
 
