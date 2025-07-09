@@ -33,14 +33,15 @@ cross-camera-reid-dashboard/
 
 ## ⚙️ Installation
 
-```bash
+
 git clone https://github.com/jatinverma2703/cross-camera-reid-dashboard.git
 cd cross-camera-reid-dashboard
 pip install -r requirements.txt
 
-
+---
 ## 🖥️ Run Locally
-streamlit run streamlit_dashboard.py
+
+streamlit run app.py
 
 ☁️ Deploy to Streamlit Cloud
 1.Visit streamlit.io/cloud
@@ -49,7 +50,9 @@ streamlit run streamlit_dashboard.py
 4.Main file: app.py
 5.Click Deploy
 
-📦 Requirements
+---
+
+## 📦 Requirements
 Your requirements.txt should contain:
 streamlit
 opencv-python
@@ -60,11 +63,11 @@ scikit-learn
 seaborn
 matplotlib
 
-👤 Author
+## 👤 Author
 Jatin Verma
 GitHub: @jatinverma2703
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License.
 
 
